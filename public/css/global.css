@@ -60,7 +60,7 @@
   
   body {
     background-image: url("../image/bg.webp") !important;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     font-size: var(--p-font);
     font-weight: 400;

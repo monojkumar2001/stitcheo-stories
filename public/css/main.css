@@ -1,51 +1,68 @@
 .mint{
     width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    position: relative;
 }
 .mint-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    padding: 100px 0px;
     gap: 30px;
+
+}
+.connect-wallet-btn{
+    position: absolute;
+    top: 4%;
+    right: 4%;
+}
+.connect-wallet-btn button{
+    background: #30100c;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: #fff;
+    font-family: var(--title-font);
+    letter-spacing: 1.5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.mint-logo-image{
+    position: relative;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: alternate;
+}
+@keyframes logo {
+    0% {
+        transform: scale(0.1);
+        opacity:1;
+      }
+      100% {
+        transform: scale(1);
+        opacity:1;
+      }
 }
 .mint-logo-image img{
     width: 100%;
 }
-.mint-containt{
+.mint-count-wrapper{
+    gap: 40px;
+}
+.mint-content h4{
     font-size: 50px;
     font-weight: 800;
     font-family: var(--title-font);
     color: #000;
 }
-.mint-count-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    text-align: center;
-    align-items: center;
-}
-.mint-count-item{
-    text-align: center;
-    align-items: center;
-}
-.mint-count-wrapper span{
 
+.mint-count-wrapper span{
     font-size: 40px;
     font-family: var(--title-font);
     color: #000;
 }
 .mint-count-item button{
-    width: 100%;
     border: none;
     outline: none;
     padding: 8px 20px;
     border-radius: 15px;
-    font-size: 27px;
+    font-size: 25px;
     font-family: var(--title-font);
     border: 2px solid #000;
     box-shadow: 5px 5px 1px 1.5px #000;
@@ -53,5 +70,54 @@
 }
 .mint-count-item button:hover{
     cursor: pointer;
-    transform: translateY(-1px);
+    transform: scale(1.05);
 }
+.mint-btn button{
+    border: 2px solid #000;
+    box-shadow: 5px 5px 1px 1.5px #000;
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: var(--title-font);
+    font-weight: 700;
+    transition: .3s ease-in-out;
+    margin: 15px 0;
+    letter-spacing: 1.5px;
+}
+.mint-btn button:hover{
+    transform: scale(1.05);
+}
+.mint-content-box{
+    border: 2px solid #000;
+    box-shadow: 5px 5px 1px 1.5px #000;
+    border-radius: 15px;
+    padding: 15px 30px;
+    background-color: #fff;
+}
+.content-box-item{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.content-box-item p{
+    margin: 0;
+}
+.content-box-item-gray{
+    color: #c7c6c6;
+}
+.mint-list-btn{  
+    border-radius: 50px;
+    padding: 10px;
+width: 150px;
+border: 2px solid #000;
+background: none;
+font-weight: 600;
+}
+.content-box-item-gray .mint-list-btn{
+    border: none;
+    font-weight: 600;
+    color: #c7c6c6;
+};
+

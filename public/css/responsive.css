@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+    .mint-containt h4 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .mint-count-wrapper {
+        gap: 2rem !important;
+    }
+    .mint-count-item button {
+        border-radius: 12px;
+        font-size: 20px;
+        border: 2px solid #000;
+        box-shadow: 3px 3px 1px 1.5px #000;
+    }
+    .mint-count-wrapper span {
+        font-size: 25px;
+    }
+    .connect-wallet-btn button{
+        font-size: 16px;
+    }
+    .mint-content-box {
+        padding: 15px 20px;
+    }
+    .mint-list-btn {
+        border-radius: 50px;
+        padding: 5px;
+        width: 120px;
+    }
+    .content-box-item {
+        font-size: 16px;
+        gap: 10px;
+    }
+    .mint-logo-image img {
+        width: 76%;
+        margin: auto;
+        display: flex;
+    }
+
+}
