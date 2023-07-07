@@ -24,7 +24,7 @@
     .mint-list-btn {
         border-radius: 50px;
         padding: 5px;
-        width: 120px;
+        width: 100px;
     }
     .content-box-item {
         font-size: 16px;
@@ -34,6 +34,11 @@
         width: 76%;
         margin: auto;
         display: flex;
+    }
+    .mint-btn button {
+        padding: 10px 40px;
+        border-radius: 50px;
+        font-size: 20px;
     }
 
 }
