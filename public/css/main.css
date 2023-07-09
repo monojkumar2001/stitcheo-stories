@@ -3,7 +3,7 @@
     position: relative;
 }
 .mint-wrapper{
-    padding: 100px 0px;
+    padding: 100px 0px 60px 0;
     gap: 30px;
 
 }
@@ -13,11 +13,11 @@
     right: 4%;
 }
 .connect-wallet-btn button{
-    background: #30100c;
+    background: #000;
     padding: 15px 40px;
     border-radius: 50px;
     color: #fff;
-    font-family: var(--title-font);
+    font-family: var(--btn-font);
     letter-spacing: 1.5px;
     border: none;
     outline: none;
@@ -27,7 +27,7 @@
 .connect-wallet-btn button:hover{
     background: #69aad6;
 }
-.mint-logo-image{
+/* .mint-logo-image{
     position: relative;
     animation-name: logo;
     animation-duration: 4s;
@@ -42,7 +42,7 @@
         transform: scale(1);
         opacity:1;
       }
-}
+} */
 .mint-logo-image img{
     width: 100%;
 }
@@ -51,23 +51,24 @@
 }
 .mint-content h4{
     font-size: 50px;
-    font-weight: 800;
-    font-family: var(--title-font);
+    font-weight: 500;
+    font-family: var(--btn-font);
     color: #000;
 }
 
-.mint-count-wrapper span{
+.mint-count-wrapper .numbers{
     font-size: 40px;
     font-family: var(--title-font);
     color: #000;
 }
 .mint-count-item button{
     border: none;
+    color: #000;
     outline: none;
     padding: 8px 20px;
     border-radius: 15px;
     font-size: 25px;
-    font-family: var(--title-font);
+    font-family: var(--btn-font);
     border: 2px solid #000;
     box-shadow: 5px 5px 1px 1.5px #000;
     transition: transform 0.4s;
@@ -78,13 +79,14 @@
     transform: scale(0.95);
 }
 .mint-btn button{
-    border: 2px solid #000;
-    box-shadow: 5px 5px 1px 1.5px #000;
+    border: 6px solid #000;
+    box-shadow: 3px 5px 1px 1.5px #000;
     padding: 10px 50px;
     border-radius: 50px;
     font-size: 25px;
-    font-family: var(--title-font);
-    font-weight: 700;
+    color: #000;
+    font-family: var(--btn-font);
+    font-weight: 500;
     transition: .3s ease-in-out;
     margin: 15px 0;
     letter-spacing: 1.5px;
@@ -93,7 +95,7 @@
     transform: scale(0.95);
 }
 .mint-content-box{
-    border: 2px solid #000;
+    border: 6px solid #000;
     box-shadow: 5px 5px 1px 1.5px #000;
     border-radius: 15px;
     padding: 15px 30px;
@@ -108,17 +110,19 @@
 }
 .content-box-item p{
     margin: 0;
+    font-family: var(--text-font);
 }
 .content-box-item-gray{
     color: #c7c6c6;
 }
-.mint-list-btn{  
+.mint-list-btn{
     border-radius: 50px;
     padding: 10px;
-width: 150px;
-border: 2px solid #000;
-background: none;
-font-weight: 600;
+    /* width: 150px; */
+    border: 2px solid #000;
+    background: none;
+    font-weight: 600;
+    /* text-align: left; */
 }
 .content-box-item-gray .mint-list-btn{
     border: none;

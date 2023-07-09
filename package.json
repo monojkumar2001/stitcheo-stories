@@ -9,12 +9,15 @@
     "aos": "^2.3.4",
     "axios": "^1.4.0",
     "bootstrap": "^5.0.1",
+    "buffer": "^6.0.3",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.10",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-open-app": "^1.0.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
     "web3": "^4.0.2",
     "web3modal": "^1.9.12"
@@ -33,14 +36,19 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14"
     ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-loader": "^9.1.3"
   }
 }
